@@ -98,11 +98,27 @@
   - [Gitee链接](https://gitee.com/DBDynamics/)
   
 - PyV3s
-  - 极简可以运行python程序的Linux控制器
-  - ARM Cotex-A7
-  - 扩展接口丰富 如IO UART USB 以太网 正交编码器
-  - 支持32/64轴点位运动
-  - 3支持2/64轴同步插补运动
+  - 可以Python编程的极简Linux控制器
+  - 板载贴片焊接TF卡
+  - 扩展接口丰富 (具有Python接口和使用例程)
+    - IO输入 x4
+    - IO输出 x4
+    - TTL UART x3
+      - 可扩展RS485
+      - 可接串口热敏打印机
+      - 可接串口传感器 如陀螺仪 超声波
+      - 可以接串口屏幕
+    - USB x1
+      - 可接USB热敏打印机
+      - 可接USB串口
+    - 以太网 x1
+      - 可接路由器
+      - 可接4g网络模块 实现远程登录
+    - 正交编码器 x1
+      - 可接手轮
+    - RS485(硬件加速@250kbps/500kbps) x2
+      - 支持32/64轴点位运动
+      - 支持2/64轴同步插补运动
   - [Github链接](https://github.com/DBDynamics/)
   - [Gitee链接](https://gitee.com/DBDynamics/)
    
